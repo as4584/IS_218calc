@@ -1,0 +1,28 @@
+[MASTER]
+# only lint real code, not venv or caches
+ignore=venv,.venv,build,dist,.pytest_cache,__pycache__
+jobs=0
+
+[MESSAGES CONTROL]
+# turn off stuff that’s noisy for small student projects — tweak if prof wants stricter
+disable=
+    C0114,  # missing-module-docstring
+    C0115,  # missing-class-docstring
+    C0116,  # missing-function-docstring
+    R0903,  # too-few-public-methods (fine for simple classes)
+    R0913,  # too-many-arguments (relax a bit)
+    R0801   # duplicate-code (overkill for small labs)
+
+[REPORTS]
+score=yes
+
+[FORMAT]
+max-line-length=100
+indent-string='    '
+
+[BASIC]
+good-names=i,j,k,x,y,ex,_,id,op
+
+[DESIGN]
+max-args=7
+max-attributes=10

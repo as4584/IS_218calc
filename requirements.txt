@@ -15,3 +15,8 @@ pytest-cov==7.0.0
 tomli==2.2.1
 tomlkit==0.13.3
 typing_extensions==4.15.0
+black==24.8.0
+ruff==0.6.9
+mypy==1.11.2
+pre-commit==3.8.0
+pip-audit==2.7.3

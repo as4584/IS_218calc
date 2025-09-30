@@ -1,22 +1,53 @@
-# Python cache
+# -----------------------------------
+# Python cache / bytecode
+# -----------------------------------
 __pycache__/
 *.py[cod]
 *.pyo
 
+# -----------------------------------
 # Virtual environments
+# -----------------------------------
 venv/
-.env/
+.venv/
 
-# Editor settings
+# -----------------------------------
+# Editor / IDE settings
+# -----------------------------------
 .vscode/
 .idea/
+*.swp
 
+# -----------------------------------
 # Testing and coverage
+# -----------------------------------
 .pytest_cache/
+.mypy_cache/
+.cache/
 .coverage
+.coverage.*
 htmlcov/
 
+# -----------------------------------
+# Build / distribution
+# -----------------------------------
+dist/
+build/
+*.egg-info/
+
+# -----------------------------------
+# Environment variables
+# -----------------------------------
+.env
+.env.*
+
+# -----------------------------------
+# Jupyter / Notebooks
+# -----------------------------------
+.ipynb_checkpoints/
+
+# -----------------------------------
 # System files
+# -----------------------------------
 .DS_Store
 Thumbs.db
-
